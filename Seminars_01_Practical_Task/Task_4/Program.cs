@@ -21,3 +21,4 @@ int max = a;
     max = c;
 
         Console.WriteLine("Максимальное число " + max);
+
