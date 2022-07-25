@@ -19,4 +19,4 @@ a = -9 b = -3 -> max = -3
         else
         {
             Console.WriteLine("Максимальное число " + b);
-        }     
+        }
