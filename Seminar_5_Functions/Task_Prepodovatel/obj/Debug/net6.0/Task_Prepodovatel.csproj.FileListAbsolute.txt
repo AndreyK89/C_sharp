@@ -1,0 +1,15 @@
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\bin\Debug\net6.0\Task_Prepodovatel.exe
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\bin\Debug\net6.0\Task_Prepodovatel.deps.json
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\bin\Debug\net6.0\Task_Prepodovatel.runtimeconfig.json
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\bin\Debug\net6.0\Task_Prepodovatel.dll
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\bin\Debug\net6.0\Task_Prepodovatel.pdb
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\Task_Prepodovatel.csproj.AssemblyReference.cache
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\Task_Prepodovatel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\Task_Prepodovatel.AssemblyInfoInputs.cache
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\Task_Prepodovatel.AssemblyInfo.cs
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\Task_Prepodovatel.csproj.CoreCompileInputs.cache
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\Task_Prepodovatel.dll
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\refint\Task_Prepodovatel.dll
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\Task_Prepodovatel.pdb
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\Task_Prepodovatel.genruntimeconfig.cache
+C:\Users\BETEPOK\Documents\Start C#\Отправить на GitHab\Практические задания\C_sharp\Seminar_5_Functions\Task_Prepodovatel\obj\Debug\net6.0\ref\Task_Prepodovatel.dll
