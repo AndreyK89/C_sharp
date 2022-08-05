@@ -1,20 +1,26 @@
-﻿/*
-Задача 25: Напишите цикл, который принимает на вход
-два числа (A и B) и возводит число A в натуральную
-степень B.
+﻿/* Выполнил Кошелев Андрей/ Группа GU | Разработчик | 2789 | 
+   Задача 27: Напишите программу, которая принимает на вход число
+    и выдаёт сумму цифр в числе.
+    Пример:
+    452 -> 11
+    82 -> 10
+    9012 -> 12
 */
 
-Console.WriteLine("Программа принимает на вход два числа и возводит число A в натуральную степень B");
-Console.Write("Введите число : ");
-double number = double.Parse(Console.ReadLine());
-Console.Write("Введите степень: ");
-int degree = int.Parse(Console.ReadLine());
 
-if (degree >= 1)
+Console.Write("Введите положительное целое число => ");
+int number = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Сумма цифр данного числа => " + Item(number));
+
+int Item(int number)
 {
-    Console.WriteLine(" Число " + number + " в степени " + degree + " = " + Math.Round(Math.Pow(number, degree), 3));
-}
-else
-{
-    Console.Write("Недопустимое значение! Повторно запустите программу и введите натуральную степень!! (1,2,3,4....) ");
+    int sum = 0;
+    while (number > 0)
+    {
+        sum = sum + number % 10;
+        number = number / 10;
+    }
+    return sum;
+
 }
