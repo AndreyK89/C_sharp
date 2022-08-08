@@ -6,18 +6,19 @@
 6, 1, 33 -> [6, 1, 33]
 */
 
-int [] numbers = new int[8];
-Console.WriteLine("Массив:");
+int[] Array = new int[8];
+Console.WriteLine("Массив из 8 случайных элементов:");
 Console.Write("[");
-
-for (int i = 0; i < numbers.Length; i++)
- {
-    numbers [i] = new Random().Next(0, 20);
-    Console.Write(" " + Arrey (i) + " ");
- }
-Console.Write("]");
-
-int Arrey (int a)
+for (int i = 0; i < Array.Length; i++)
 {
-    return numbers[a];
+    Array[i] = new Random().Next(0, 20);
+    Console.Write(Array[i]);
+    if (i < Array.Length - 1)
+    {
+        Console.Write(", ");
+    }
+    else
+    {
+        Console.Write("]");
+    }
 }
