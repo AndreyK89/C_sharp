@@ -6,7 +6,7 @@
 */
 
 
-int[] array = {1,2,3,4,5};
+int[] array = {1,2,3,4,5,6,7,8,9,0};
 int tmp = 0;
 for(int i = 0, j = array.Length - 1; i <array.Length / 2; i++, j--)
 {
