@@ -24,7 +24,6 @@ void Positive(int[] array)
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] > 0) count++;
-        else count += 0;
     }
     Console.Write($"Чисел больше 0 введено: {count}");
 }
@@ -55,3 +54,4 @@ void WriteArray(int[] array)
     }
     Console.WriteLine();
 }
+Console.WriteLine();
