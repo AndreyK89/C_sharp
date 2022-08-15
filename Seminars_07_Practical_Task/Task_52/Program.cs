@@ -6,17 +6,6 @@
 5 9 2 3
 8 4 2 4
 Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
-for (int j = 0; j < numbers.GetLength(1); j++)
-{
-    double avarage = 0;
-    for (int i = 0; i < numbers.GetLength(0); i++)
-    {
-        avarage = (avarage + numbers[i, j]);
-    }
-    avarage = avarage / n;
-    Console.Write(avarage + "; ");
-}
-Console.WriteLine();
 */
 
 
@@ -25,8 +14,8 @@ Console.WriteLine("Введите количество строк и столб�
 string[] input = Console.ReadLine().Split();
 int rows = int.Parse(input[0]);
 int columns = int.Parse(input[1]);
-int[,] myArray = GetArray(rows, columns);
-PrintArray(myArray);
+int[,] randomarrey = GetArray(rows, columns);
+PrintArray(randomarrey);
 
 int[,] GetArray(int rows, int columns)
 {
@@ -41,20 +30,18 @@ int[,] GetArray(int rows, int columns)
     return array;
 }
 
-Console.WriteLine("Введите значение позиции (строка столбец ) через пробел: ");
-string[] position = Console.ReadLine().Split();
-int horizontal = int.Parse(position[0]);
-int vertical = int.Parse(position[1]);
-
-for (int j = 0; j < numbers.GetLength(1); j++)
+Console.WriteLine("Среднее арифметическое каждого столбца:");
+Console.Write(" | ");
+for (int j = 0; j < randomarrey.GetLength(1); j++)
 {
     double avarage = 0;
-    for (int i = 0; i < numbers.GetLength(0); i++)
+    for (int i = 0; i < randomarrey.GetLength(0); i++)
     {
-        avarage = (avarage + numbers[i, j]);
+        avarage = (avarage + randomarrey[i, j]);
     }
-    avarage = avarage / n;
-    Console.Write(avarage + "; ");
+    avarage = avarage / rows;
+    avarage = Math.Round(avarage, 1);
+    Console.Write(avarage + " | ");
 }
 
 
@@ -70,4 +57,3 @@ void PrintArray(int[,] array)
 
     }
 }
-Console.WriteLine();
