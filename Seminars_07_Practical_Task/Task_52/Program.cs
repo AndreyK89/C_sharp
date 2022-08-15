@@ -1,42 +1,73 @@
-﻿Console.WriteLine("введите номер строки");
-int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("введите номер столбца");
-int m = Convert.ToInt32(Console.ReadLine());
-int[,] numbers = new int[10, 10];
-FillArrayRandomNumbers(numbers);
-
-if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
+﻿/* Выполнил Кошелев Андрей/ Группа GU | Разработчик | 2789 |
+Задача 52. Задайте двумерный массив из целых чисел.
+Найдите среднее арифметическое элементов в каждом столбце.
+Например, задан массив:
+1 4 7 2
+5 9 2 3
+8 4 2 4
+Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
+for (int j = 0; j < numbers.GetLength(1); j++)
 {
-    Console.WriteLine("такого элемента нет");
+    double avarage = 0;
+    for (int i = 0; i < numbers.GetLength(0); i++)
+    {
+        avarage = (avarage + numbers[i, j]);
+    }
+    avarage = avarage / n;
+    Console.Write(avarage + "; ");
 }
-else
-{
-    Console.WriteLine($"значение элемента {n} строки и {m} столбца равно {numbers[n - 1, m - 1]}");
-}
+Console.WriteLine();
+*/
 
-PrintArray(numbers);
 
-void FillArrayRandomNumbers(int[,] array)
+Console.WriteLine("Создайте массив.");
+Console.WriteLine("Введите количество строк и столбцов через пробел: ");
+string[] input = Console.ReadLine().Split();
+int rows = int.Parse(input[0]);
+int columns = int.Parse(input[1]);
+int[,] myArray = GetArray(rows, columns);
+PrintArray(myArray);
+
+int[,] GetArray(int rows, int columns)
 {
+    int[,] array = new int[rows, columns];
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(-100, 100) / 10;
+            array[i, j] = new Random().Next(0, 10);
         }
     }
+    return array;
 }
+
+Console.WriteLine("Введите значение позиции (строка столбец ) через пробел: ");
+string[] position = Console.ReadLine().Split();
+int horizontal = int.Parse(position[0]);
+int vertical = int.Parse(position[1]);
+
+for (int j = 0; j < numbers.GetLength(1); j++)
+{
+    double avarage = 0;
+    for (int i = 0; i < numbers.GetLength(0); i++)
+    {
+        avarage = (avarage + numbers[i, j]);
+    }
+    avarage = avarage / n;
+    Console.Write(avarage + "; ");
+}
+
 
 void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        Console.Write("[ ");
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write(array[i, j] + " ");
+            Console.Write(array[i, j] + "  ");
         }
-        Console.Write("]");
-        Console.WriteLine("");
+        Console.WriteLine();
+
     }
 }
+Console.WriteLine();

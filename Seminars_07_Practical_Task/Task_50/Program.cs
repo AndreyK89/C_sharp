@@ -14,8 +14,8 @@ Console.WriteLine("Введите количество строк и столб�
 string[] input = Console.ReadLine().Split();
 int rows = int.Parse(input[0]);
 int columns = int.Parse(input[1]);
-int[,] myArray = GetArray(rows, columns);
-PrintArray(myArray);
+int[,] randomarrey = GetArray(rows, columns);
+PrintArray(randomarrey);
 
 int[,] GetArray(int rows, int columns)
 {
@@ -35,13 +35,13 @@ string[] position = Console.ReadLine().Split();
 int horizontal = int.Parse(position[0]);
 int vertical = int.Parse(position[1]);
 
-if (horizontal > myArray.GetLength(0) || vertical > myArray.GetLength(1))
+if (horizontal > randomarrey.GetLength(0) || vertical > randomarrey.GetLength(1))
 {
     Console.WriteLine("ERROR: Значение позиции за пределами массива.");
 }
 else
 {
-    Console.WriteLine($"Значение элемента {horizontal} строки и {vertical} столбца => {myArray[horizontal - 1, vertical - 1]}");
+    Console.WriteLine($"Значение элемента {horizontal} строки и {vertical} столбца => {randomarrey[horizontal - 1, vertical - 1]}");
 }
 
 
