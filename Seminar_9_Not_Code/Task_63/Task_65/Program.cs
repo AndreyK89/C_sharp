@@ -19,7 +19,6 @@ void Naturalback(int start)
     start--;
     Naturalback(start);
 }
-
 */
 
 Console.WriteLine("Введите число N ");
