@@ -5,9 +5,9 @@ m = 3, n = 2 -> A(m,n) = 29
 */
 
 
-int M = Akkerman("M");
-int N = Akkerman("N");
-Console.WriteLine($"Функция Аккермана -> A({M},{N}) = {Akerman(M, N)}");
+int m = Akkerman("M");
+int n = Akkerman("N");
+Console.WriteLine($"Функция Аккермана -> A({m},{n}) = {Akerman(m, n)}");
 
 static int Akerman(int n, int m)
 {
